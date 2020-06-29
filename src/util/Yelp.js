@@ -13,7 +13,7 @@ const Yelp={
                     console.log(`business`);
                     return {
                         id: business.id,
-                        imageSrc: business.img_url,
+                        imageSrc: business.image_url,
                         name: business.name,
                         address: business.location.address1,
                         city: business.location.city,
